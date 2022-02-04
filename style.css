@@ -382,6 +382,22 @@ hr{
     justify-content: center;
     row-gap: 15px;
 }
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
   
   .footer .footer-content .footer-section .contact-form .socials
   {
