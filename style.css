@@ -365,6 +365,37 @@ footer{
 .footer-distributed .footer-left img{
 	width: 30%;
 }
+.contact-card-box{
+    display:flex;
+    column-gap: 15%;
+    row-gap: 15px;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.contact-card img{
+    width: 20px;
+    align-self: center;
+}
+
+.contact-card p{
+    align-self: center;
+    color: gray;
+}
+
+#credits{
+    margin-left: 11%;
+    margin-right: 2%;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
 
 .footer-distributed h3 span{
 	color:  #e0ac1c;
